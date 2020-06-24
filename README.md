@@ -65,14 +65,25 @@ Conseguimos observar que os valores de *accuracy* nos dados de validação da re
 ![Feature Maps](/images/feature_maps.PNG)
 
 ### Passo 6 - *Transfer Learning*
+- Como extra, decidimos implementar uma solução recorrendo a *transfer learning*. Foi utilizada a aplicação do *Keras VGG16*, que consiste numa rede convolucional, para criar um modelo mais robusto. Com esta implementação, conseguimos resultados equiparáveis à nossa implementação do passo 5. 
+    > [6-Transfer_Learning.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/6-Transfer_Learning.ipynb)
+    
+![Transfer Learning Model](/images/tl_model.PNG)
 
+## Conclusão
+- Concluimos que conseguimos cumprir todos os objetivos inicialmente definidos e, todos os problemas e dificuldades foram ultrapassados com sucesso. Tendo em conta o tamanho do *dataset* inicial, e, que o vencedor da competição do *Kaggle* obteve 90% de *accuracy* (cerca de mais 7%) consideramos que os resultados foram muito satisfatórios.
+- Foi um processo desafiante mas muito gratificante porque conseguimos aprofundar o nosso conhecimento em diversos algoritmos e técnicas de aprendizagem automática e *machine learning*.
 
-### Referências
+## Referências
+
+- #### *Keras*
+    - *Keras Documentation*
+        >[keras.io](https://keras.io/api/)
 
 - #### *Dataset*
     - *Brain MRI Images for Brain Tumor Detection*
-        >[Brain MRI for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
-
+        >[Brain MRI for Brain Tumor Detection (Kaggle)](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
+        
 ## Realizado por:
 - Diogo Silva **PG41070**
     > [GitHub](https://github.com/diogogsilva)
