@@ -23,7 +23,8 @@
 ### Passo 2 - Exploratory Data Analysis (EDA)
 - Com a divisão dos dados completa, seguiu-se a exploração e análise dos dados, onde verificamos alguns exemplos das imagens do nosso *dataset* e a sua respetiva classe. Feito isso, consideramos também importante observar se o nosso *dataset* era balanceado.
     > [2-EDA.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/2-EDA.ipynb)
-    
+        
+![Examples of Image](/images/eda2.PNG)
 ![Data Distribution](/images/eda.PNG)
 
 ### Passo 3 - *Data Augmentation*
@@ -50,10 +51,10 @@ Após termos os dados divididos, explorados e *data augmentation* introduzida, d
 - #### Simple SVM:
     - Implementação de uma Máquina de Vetores de Suporte simples
         > [4.3-Simple_SVM.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.3-Simple_SVM.ipynb)
-   
-Conseguimos observar que os valores de *accuracy* nos dados de validação da rede neuronal convolucional são os mais elevados, rondando maioritariamente valores superiores a 80%. A *SVM* também obteve resultados bastante positivos com três dos *kernels*. Por fim, a rede neuronal, foi a que obteve piores resultados, porém, não significativamente.
-        
+           
 ![Result SVM](/images/svm_result.PNG)
+
+Conseguimos observar que os valores de *accuracy* nos dados de validação da rede neuronal convolucional são os mais elevados, rondando maioritariamente valores superiores a 80%. A *SVM* também obteve resultados bastante positivos com três dos *kernels*. Por fim, a rede neuronal, foi a que obteve piores resultados, porém, não significativamente.
 
 ### Passo 5 - Otimização do modelo
 - Concluída a implementação dos três modelos e respetivas avaliações, confirmamos que, tal como esperado, o modelo de redes neuronais convolucionais foi o que nos garantiu melhores resultados. Assim sendo, para este mesmo modelo, decidimos realizar uma otimização dos seus parâmetros e verificar as melhorias.
