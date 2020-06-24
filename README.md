@@ -13,49 +13,55 @@
 
 ## Abordagem
 
-### Passo 1 - Data Treatment (Split):
+### Passo 1 - Data Treatment (Split)
 
 - Inicialmente, realizamos uma divisão dos dados por pastas correspondentes a treino (75%) e teste (25%) com as respetivas classes (*yes*, *no*).
     > [1-Data_Treatment.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/1-Data_Treatment.ipynb)
     
 ![Data in Folders](/images/data-split.png)
 
-### Passo 2 - Exploratory Data Analysis (EDA):
+### Passo 2 - Exploratory Data Analysis (EDA)
 - Com a divisão dos dados completa, seguiu-se a exploração e análise dos dados, onde verificamos alguns exemplos das imagens do nosso *dataset* e a sua respetiva classe. Feito isso, consideramos também importante observar se o nosso *dataset* era balanceado.
     > [2-EDA.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/2-EDA.ipynb)
     
 ![Data Distribution](/images/eda.PNG)
 
-### Passo 3 - Implementação de três possíveis abordagens para o problema
-- Após termos os dados divididos e explorados, decidimos implementar três modelos que consideramos que podiam resolver o nosso problema. Para isso, começamos com três modelos "básicos" de forma a conferirmos dos três, qual o que à partida, têm melhores resultados. Os modelos considerados foram uma rede neuronal, uma rede convolucional e, por fim, uma máquina de vetores de suporte.
+### Passo 3 - *Data Augmentation*
+- Como o nosso *dataset* continha apenas 253 imagens, decidimos realizar *data augmentation*. Este processo foi realizado com transformações horizontais e verticais.
+    > [3-Data_Augmentation.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/3-Data_Augmentation.ipynb)
+
+![Example of Data Augmentation](/images/data_augmentation.PNG)
+
+### Passo 4 - Implementação de três possíveis abordagens para o problema
+Após termos os dados divididos, explorados e *data augmentation* introduzida, decidimos implementar três modelos que consideramos que podiam resolver o nosso problema. Para isso, começamos com três modelos "básicos" de forma a conferirmos dos três, qual o que à partida, têm melhores resultados. Os modelos considerados foram uma rede neuronal, uma rede convolucional e, por fim, uma máquina de vetores de suporte.
 
 - #### Simple Neural Network:
     - Implementação de uma Rede Neuronal simples
-        > [3-Simple_NN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/3-Simple_NN.ipynb)
+        > [4.1-Simple_NN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.1-Simple_NN.ipynb)
        
 ![Result NN](/images/nn_result.PNG)
 
 - #### Simple CNN:
     - Implementação de uma Rede Neuronal Convolucional simples
-        > [4-Simple_CNN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4-Simple_CNN.ipynb)
+        > [4.2-Simple_CNN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.2-Simple_CNN.ipynb)
         
 ![Result CNN](/images/cnn_result.PNG)
 
 - #### Simple SVM:
     - Implementação de uma Máquina de Vetores de Suporte simples
-        > [5-Simple_SVM.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/5-Simple_SVM.ipynb)
+        > [4.3-Simple_SVM.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.3-Simple_SVM.ipynb)
    
-- Conseguimos observar que os valores de *accuracy* nos dados de validação da rede neuronal convolucional são os mais elevados, rondando maioritariamente valores superiores a 80%. A *SVM* também obteve resultados bastante positivos com três dos *kernels*. Por fim, a rede neuronal, foi a que obteve piores resultados, porém, não significativamente.
+Conseguimos observar que os valores de *accuracy* nos dados de validação da rede neuronal convolucional são os mais elevados, rondando maioritariamente valores superiores a 80%. A *SVM* também obteve resultados bastante positivos com três dos *kernels*. Por fim, a rede neuronal, foi a que obteve piores resultados, porém, não significativamente.
         
 ![Result SVM](/images/svm_result.PNG)
 
-### Passo 4 - Otimização do modelo
+### Passo 5 - Otimização do modelo
 - Concluída a implementação dos três modelos e respetivas avaliações, confirmamos que, tal como esperado, o modelo de redes neuronais convolucionais foi o que nos garantiu melhores resultados. Assim sendo, para este mesmo modelo, decidimos realizar uma otimização dos seus parâmetros e verificar as melhorias.
 
-### Passo 5 - Modelo Final
+### Passo 6 - Modelo Final
 - Com os resultados obtidos na otimização, conseguimos então construir o nosso modelo final que, para além de ser mais versátil, garante-nos resultados mais precisos.
 
-### Passo 6 - *Feature Maps*
+### Passo 7 - *Feature Maps*
 - Após otimizado o modelo, para facilitar a compreensão das *features* que o modelo final está a selecionar, implementamos uma visualização dos *feature maps* das várias camadas da nossa arquitetura.
 
 - ...
