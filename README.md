@@ -21,7 +21,7 @@
 ![Data in Folders](/images/data-split.png)
 
 ### Passo 2 - Exploratory Data Analysis (EDA)
-- Com a divisão dos dados completa, seguiu-se a exploração e análise dos dados, onde verificamos alguns exemplos das imagens do nosso *dataset* e a sua respetiva classe. Feito isso, consideramos também importante observar se o nosso *dataset* era balanceado.
+- Com a divisão dos dados completa, seguiu-se a exploração e análise dos dados, onde verificamos alguns exemplos das imagens do nosso *dataset* e a sua respetiva classe. Feito isso, consideramos também importante observar se o nosso *dataset* era balanceado. Ao observarmos isto, verificamos que 61% dos casos são positivos, ou seja, podemos considerar este valor como uma *baseline* para os futuros valores de *accuracy*.
     > [2-EDA.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/2-EDA.ipynb)
         
 ![Examples of Image](/images/eda2.PNG)
