@@ -36,21 +36,21 @@
 ### Passo 4 - Implementação de três possíveis abordagens para o problema
 Após termos os dados divididos, explorados e *data augmentation* introduzida, decidimos implementar três modelos que consideramos que podiam resolver o nosso problema. Para isso, começamos com três modelos "básicos" de forma a conferirmos dos três, qual o que à partida, têm melhores resultados. Os modelos considerados foram uma rede neuronal, uma rede convolucional e, por fim, uma máquina de vetores de suporte.
 
-- #### Simple Neural Network:
-    - Implementação de uma Rede Neuronal simples
-        > [4.1-Simple_NN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.1-Simple_NN.ipynb)
+- #### Neural Network:
+    - Implementação de uma Rede Neuronal
+        > [4.1-NN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.1-NN.ipynb)
        
 ![Result NN](/images/nn_result.PNG)
 
-- #### Simple CNN:
-    - Implementação de uma Rede Neuronal Convolucional simples
-        > [4.2-Simple_CNN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.2-Simple_CNN.ipynb)
+- #### Convolutional Neural Network:
+    - Implementação de uma Rede Neuronal Convolucional
+        > [4.2-CNN.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.2-CNN.ipynb)
         
 ![Result CNN](/images/cnn_result.PNG)
 
-- #### Simple SVM:
-    - Implementação de uma Máquina de Vetores de Suporte simples
-        > [4.3-Simple_SVM.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.3-Simple_SVM.ipynb)
+- #### SVM:
+    - Implementação de uma Máquina de Vetores de Suporte
+        > [4.3-SVM.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/4.3-SVM.ipynb)
            
 ![Result SVM](/images/svm_result.PNG)
 
