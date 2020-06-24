@@ -56,17 +56,17 @@ Após termos os dados divididos, explorados e *data augmentation* introduzida, d
 
 Conseguimos observar que os valores de *accuracy* nos dados de validação da rede neuronal convolucional são os mais elevados, rondando maioritariamente valores superiores a 80%. A *SVM* também obteve resultados bastante positivos com três dos *kernels*. Por fim, a rede neuronal, foi a que obteve piores resultados, porém, não significativamente.
 
-### Passo 5 - Otimização do modelo
-- Concluída a implementação dos três modelos e respetivas avaliações, confirmamos que, tal como esperado, o modelo de redes neuronais convolucionais foi o que nos garantiu melhores resultados. Assim sendo, para este mesmo modelo, decidimos realizar uma otimização dos seus parâmetros e verificar as melhorias.
+### Passo 5 - Otimização do modelo, Modelo Final e *Feature Maps*
+- Concluída a implementação dos três modelos e respetivas avaliações, confirmamos que, tal como esperado, o modelo de redes neuronais convolucionais foi o que nos garantiu melhores resultados. Assim sendo, para este mesmo modelo, decidimos realizar uma otimização dos seus parâmetros e verificar as melhorias. Para além disso, com os resultados obtidos na otimização, conseguimos então construir o nosso modelo final que, para além de ser mais versátil, garante-nos resultados mais precisos. Com este modelo final, decidimos, para facilitar a compreensão das *features* que estão a ser selecionadas, implementar uma visualização dos *feature maps* das várias camadas da nossa arquitetura.
+    > [5-Otimization_Final_Model_Feature_Maps.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/5-Otimization_Final_Model_Feature_Maps.ipynb)
+    
+![Optimization](/images/otimizacao.PNG)
+![Best Model](/images/best_model.PNG)
+![Feature Maps](/images/feature_maps.PNG)
 
-### Passo 6 - Modelo Final
-- Com os resultados obtidos na otimização, conseguimos então construir o nosso modelo final que, para além de ser mais versátil, garante-nos resultados mais precisos.
+### Passo 6 - *Transfer Learning*
 
-### Passo 7 - *Feature Maps*
-- Após otimizado o modelo, para facilitar a compreensão das *features* que o modelo final está a selecionar, implementamos uma visualização dos *feature maps* das várias camadas da nossa arquitetura.
 
-- ...
-        
 ### Referências
 
 - #### *Dataset*
