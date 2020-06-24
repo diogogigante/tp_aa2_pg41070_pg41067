@@ -2,7 +2,7 @@
 ## Contextualização
 - O tumor cerebral é definido como um crescimento anormal de células no cérebro. É uma doença extretamente mortal e infelizmente, comum. A sua taxa de mortalidade ronda os 90% e, em países como Reino Unido, são detetados em média 11 casos diários. Estes, são alguns dos motivos que nos levaram a escolher este tema e descobrir mais sobre o mesmo.
 
-![alt text](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/tree/master/images/contextualizacao.jpg)
+![Brain Tumor](/images/contextualizacao.jpg)
 
 ## Objetivos
 
@@ -19,7 +19,7 @@
 - Tratamento de dados e respetiva divisão  
     > [1-Data_Treatment.ipynb](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/blob/master/1-Data_Treatment.ipynb)
     
-![alt text](https://github.com/diogogsilva/tp_aa2_pg41070_pg41067/tree/master/images/data-split.png)
+![alt text](/images/data-split.png)
     
 - Com a divisão dos dados completa, seguiu-se a exploração e análise dos dados, onde verificamos alguns exemplos das imagens do nosso *dataset* e a sua respetiva classe. Feito isso, consideramos também importante observar se o nosso *dataset* era balanceado.
 
@@ -62,7 +62,7 @@
         
 ### Referências
 
-- ## *Dataset*
+- #### *Dataset*
     - *Brain MRI Images for Brain Tumor Detection*
         >[Brain MRI for Brain Tumor Detection](https://www.kaggle.com/navoneel/brain-mri-images-for-brain-tumor-detection)
 
